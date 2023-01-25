@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Question 3</title>
+    <style>
+        .ChangeColor{
+            background-color: lightcoral;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Welcome to this page</h1>
+        <button onclick="ChangeMe();">Click Me</button>
+    </div>
+
+    <script>
+        ChangeMe = function(){
+            alert("Do you really want to change the color");
+            document.body.className = "ChangeColor";
+            alert("Your Color is changed")
+        }
+    </script>
+</body>
+</html>
